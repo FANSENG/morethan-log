@@ -4,8 +4,9 @@ import {
   AiFillLinkedin,
   AiOutlineGithub,
   AiOutlineInstagram,
-  AiOutlineMail,
+  AiOutlineMail
 } from "react-icons/ai"
+import { RiBilibiliFill } from "react-icons/ri";
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
 
@@ -55,6 +56,16 @@ const ContactCard: React.FC = () => {
           >
             <AiFillLinkedin className="icon" />
             <div className="name">linkedin</div>
+          </a>
+        )}
+        {CONFIG.profile.bilibili && (
+          <a
+            href={`https://space.bilibili.com/${CONFIG.profile.bilibili}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <RiBilibiliFill className="icon" />
+            <div className="name">bilibili</div>
           </a>
         )}
       </StyledWrapper>
