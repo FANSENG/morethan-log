@@ -19,7 +19,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "FS1N's Blog",
+    title: "FS1N",
     description: "welcome to fs1n's blog!",
     scheme: "system", // 'light' | 'dark' | 'system'
   },

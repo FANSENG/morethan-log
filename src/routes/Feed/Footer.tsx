@@ -26,7 +26,7 @@ const Footer: React.FC<Props> = ({ className }) => {
         target="_blank"
         rel="noreferrer"
       >
-        Logo通过DesignEvo设计制作
+        Logo is designed by DesignEvo.
       </a>
     </StyledWrapper>
   )
