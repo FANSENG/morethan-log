@@ -20,7 +20,13 @@ const Footer: React.FC<Props> = ({ className }) => {
       >
         © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
       </a>
-      <div>Logo通过<a href="https://www.designevo.com/cn/" title="免费在线logo制作软件">DesignEvo</a>设计制作</div>
+      <a
+        href="https://www.designevo.com/cn/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Logo通过DesignEvo设计制作
+      </a>
     </StyledWrapper>
   )
 }
