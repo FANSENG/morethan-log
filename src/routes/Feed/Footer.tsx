@@ -20,6 +20,7 @@ const Footer: React.FC<Props> = ({ className }) => {
       >
         © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
       </a>
+      <br />
       <a
         href="https://www.designevo.com/cn/"
         target="_blank"
